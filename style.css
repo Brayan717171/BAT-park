@@ -1,0 +1,45 @@
+
+
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    background-image: url("./image/Slide\ 16_9\ -\ 5.png");
+
+    
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    margin-top: 40px;
+    justify-content: space-between;
+    background-color: #1B293B;
+    margin-left: 100px;
+    margin-right: 100px;
+    filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.74))
+}
+
+.logo img {
+    height: 100px; 
+    margin-left: -35px;
+    position: absolute;
+    margin-top: -40px;
+}
+
+.cabecalho a {
+    color: #cccccc;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.bt-prototipo {
+    background-color: #228CDB; 
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 27px;
+    border: 1px  #228CDB;
+}
+
+
