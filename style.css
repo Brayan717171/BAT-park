@@ -41,5 +41,63 @@ body {
     border-radius: 27px;
     border: 1px  #228CDB;
 }
+.main1 {
+    padding: 50px 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
 
+.texto {
+    margin-bottom: 40px;
+}
 
+.texto h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.texto p {
+    font-size: 19px;
+    color: #DBE4EE;
+    font-size:large;
+    
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.card {
+    background-color: #DBE4EE; 
+    color: #333333;
+    padding: 25px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h3 {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #363636;
+    font-size: larger;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 450;
+    padding-top: 70px;
+}
