@@ -50,6 +50,7 @@ body {
 
 .texto {
     margin-bottom: 40px;
+    justify-self: center;
 }
 
 .texto h1 {
@@ -57,43 +58,6 @@ body {
     margin-bottom: 15px;
 }
 
-.texto p {
-    font-size: 19px;
-    color: #DBE4EE;
-    font-size:large;
-    
-}
 
-.title {
-    font-size: 28px;
-    margin-bottom: 20px;
-    font-weight: 450;
-    padding-top: 70px;
-    margin-top: -40px;
-}
-.footer{
-    background-color: #DBE4EE;
-    margin-top: -20px;
-    display: flex;
-}
-.footer img{
-    height: 275px;
-    width: 410px;
-}
-.contato1{
-    color: #1B293B;
-    padding: 10px;
-    padding-left: 20px;
-    
-}
-.footer{
-    margin-top: 30px;
-    
-}
-.contato1 p{
-    margin-left: 20px;
-    margin-top: 11px;
-    
-}
 
 
