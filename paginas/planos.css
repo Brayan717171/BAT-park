@@ -115,4 +115,61 @@ body {
     text-decoration:underline;
     text-decoration-thickness: 1px;
 }
+.blocos2 h1{
+    justify-self: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    
+}
+.blocos2{
+    background-color: #0A2463;
+    width: 350px;
+    height: 600px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+}
+.blocos2 h2{
+    justify-self: center;
+    font-weight: 1;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.blocos2 h3{
+    justify-self: center;
+    font-size: 36px;
+    font-weight: 1;
+    text-decoration:underline;
+    text-decoration-thickness: 1px;
+}
+.blocos3{
+    background-color: #8b7214;
+    width: 350px;
+    height: 600px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+}
+.blocos3 h1{
+    justify-self: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    
+}
+.blocos3 h2{
+    justify-self: center;
+    font-weight: 1;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.blocos3 h3{
+    justify-self: center;
+    font-size: 36px;
+    font-weight: 1;
+    text-decoration:underline;
+    text-decoration-thickness: 1px;
+}
+
 
