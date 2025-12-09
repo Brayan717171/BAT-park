@@ -199,6 +199,52 @@ body {
     }
 
     
-   
+   .planos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        max-width: 900px;
+        margin: 0 auto;
+        justify-items: start;
+    }
+
+    .blocos3 {
+        grid-column: 1 / 3; 
+        margin-top: 10px;
+        justify-self: center; 
+    }
+
+    .planos > div {
+        padding: 25px;
+        border-radius: 15px;
+        text-align: left;
+    }
+
+    .planos h1 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .planos h2 {
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+
+    .planos h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .descricao1 {
+        padding: 18px;
+        border-radius: 20px;
+        font-size: 15px;
+        line-height: 1.45;
+    }
+
+    .planos p {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
 }
 
