@@ -155,5 +155,19 @@ body {
 
     .card {
         flex: 1 1 45%;
-
     }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contato1 {
+        padding: 20px;
+    }
+}
