@@ -148,4 +148,12 @@ body {
     .texto h1 {
         font-size: 32px;
     }
+    .grid {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .card {
+        flex: 1 1 45%;
+
     }
