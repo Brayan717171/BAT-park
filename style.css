@@ -171,3 +171,13 @@ body {
         padding: 20px;
     }
 }
+
+/* MOBILE */
+@media (max-width: 375px){
+    .cabecalho a {font-size: 12px;
+    padding: 2px;}
+    .logo img {
+        height: 70px;
+        padding-left: 10px ;
+    }
+}
