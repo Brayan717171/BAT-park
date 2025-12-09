@@ -144,8 +144,8 @@ body {
     }
     .main1 {
         padding: 40px 40px;
-    
-}
-
-
-
+    }
+    .texto h1 {
+        font-size: 32px;
+    }
+    }
