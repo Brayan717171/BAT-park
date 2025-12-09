@@ -230,6 +230,23 @@ body {
         height: auto;
         border-radius: 5px;
     }
+        .contato1 {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .contato1 h1 {
+        color: #1B293B;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .contato1 p {
+        color: #1a1a1a;
+        font-size: 16px;
+        margin-top: 5px;
+    }
 
 
 
