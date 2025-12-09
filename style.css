@@ -138,6 +138,10 @@ body {
         height: 80px;
         margin-top: -25px;
     }
+    .cabecalho a {
+        margin-left: 15px;
+        font-size: 15px;
+    }
 }
 
 
