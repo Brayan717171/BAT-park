@@ -158,20 +158,29 @@ body {
     margin-top: 11px;
     color: #1a1a1a;
 }
+/* TABLET */
 @media (max-width: 992px) {
+
     .header {
-    margin: 20px;
-    padding: 15px;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-.logo img {
-    height: 70px;
-    margin: 0;
-    position: static;
-}
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+    }
+
+    .logo img {
+        height: 80px;
+        margin-top: -25px;
+    }
+    .cabecalho a {
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    .main1 {
+        padding: 40px 40px;
+    }
 
 }
+
+
 
 
