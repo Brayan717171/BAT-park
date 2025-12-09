@@ -186,7 +186,25 @@ body {
     .texto h1{
         font-size: 15px;
     }
+
     .texto p{
+        font-size: 10px;
+    }
+    .grid{
+        padding: 0px;
+    }
+    .grid .card{
+        padding: 12px;
+        height: 100px;
+        width: 10px;
+    }
+    .grid .card img{
+        height: 35px;
+    }
+    .grid .card h2{
+        font-size: 15px;
+    }
+    .grid .card p{
         font-size: 10px;
     }
 }
