@@ -128,7 +128,7 @@ body {
 }
 
 /*TABLET*/
-    @media (max-width: 992px) {
+    @media (max-width: 768px) {
     .header {
         margin-left: 20px;
         margin-right: 20px;
@@ -156,10 +156,126 @@ body {
     .card {
         flex: 1 1 45%;
     }
+        /* ★ FOOTER lado a lado no tablet */
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .footer img {
+        width: 45%;
+        height: auto;
+        max-width: 300px;
+    }
+
+    .contato1 {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .contato1 h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contato1 p {
+        margin: 5px 0;
+        margin-left: 0;
+        font-size: 16px;
+    }
+}
+    
+    /* MOBILE */
+@media (max-width: 576px) {
+
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* HEADER */
+    .header {
+        margin: 0;
+        padding: 15px;
+        border-radius: 0;
+        justify-content: space-between;
+    }
+
+    .logo img {
+        height: 60px;
+        margin-left: 0;
+        margin-top: -10px;
+        position: static;
+    }
+
+    .cabecalho {
+        display: none; /* Caso no Figma o menu desapareça no mobile */
+    }
+
+    /* MAIN */
+    .main1 {
+        padding: 20px;
+        text-align: center;
+    }
+
+    /* TEXTO */
+    .texto h1 {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+
+    .texto p {
+        font-size: 16px;
+    }
+
+    /* GRID */
+    .grid {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 330px;
+        padding: 20px;
+    }
+
+    .card img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .card h2 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+
+    /* TÍTULO */
+    .title {
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    /* FOOTER */
     .footer {
         flex-direction: column;
+        margin-top: 40px;
         text-align: center;
-        padding-bottom: 20px;
+        width: 100%;
     }
 
     .footer img {
@@ -168,6 +284,18 @@ body {
     }
 
     .contato1 {
-        padding: 20px;
+        padding: 10px 0;
     }
+
+    .contato1 h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contato1 p {
+        font-size: 16px;
+        margin: 5px 0;
+        margin-left: 0;
+    }
+
 }
