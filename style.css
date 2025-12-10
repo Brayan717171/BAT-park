@@ -195,16 +195,17 @@ body {
     }
     .grid .card{
         padding: 12px;
-        height: 100px;
+        height: 90px;
         width: 10px;
     }
     .grid .card img{
         height: 35px;
     }
     .grid .card h2{
-        font-size: 15px;
+        font-size: 13px;
     }
     .grid .card p{
-        font-size: 10px;
+        font-size: 8px;
     }
+   
 }
