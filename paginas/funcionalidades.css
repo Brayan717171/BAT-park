@@ -159,7 +159,7 @@ body {
     color: #1a1a1a;
 }
 /* TABLET */
-@media (max-width: 992px) {
+@media (max-width: 768px) {
 
     .header {
         margin-left: 20px;
@@ -200,16 +200,16 @@ body {
     }
 
     
-    .funcionalidades div[class^="descricao"] {
+    .funcionalidades .descricao {
         background-color: #DBE4EE;
         padding: 20px;
         border-radius: 90px;
-        width: 90%;           
+        width: 90%;
         margin: 0 auto;       
         text-align: center;
     }
 
-    .funcionalidades div[class^="descricao"] p {
+    .funcionalidades .descricao p {
         color: #1a1a1a;
         font-size: 14px;
         line-height: 1.3;
@@ -251,7 +251,33 @@ body {
 
     
 }
+/* MOBILE */
+@media (max-width: 375px){
+    .cabecalho a {
+    font-size: 12px;
+    padding: 2px;}
 
+    .logo img {
+        height: 70px;
+        padding-left: 10px ;
+    }
+
+    .texto h1{
+        font-size: 15px;
+    }
+
+    .texto{
+        font-size: 10px;
+    }
+    
+    .funcionalidades h2{
+        font-size: 12px;
+        margin: 0px;
+    }
+    p {
+        font-size: 10px;
+    }
+}
     
 
 
