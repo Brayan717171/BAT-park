@@ -269,14 +269,45 @@ body {
     .texto{
         font-size: 10px;
     }
+    .funcionalidades{
+        gap: 0;
+    }
+    .funcionalidades .blocos1 .blocos2 .blocos3 .blocos4{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
     
     .funcionalidades h2{
-        font-size: 12px;
-        margin: 0px;
+        font-size: 11px;
+        display: flex;
+        margin-left: -10px;
+        justify-content: center;
     }
-    p {
+    p{
         font-size: 10px;
     }
+    .descricao1 {
+        width: 130px;
+    }
+    .descricao2{
+        width: 130px;
+    }
+    .descricao3{
+        width: 130px;
+    }
+    .descricao4{
+        width: 130px;
+    }
+    .footer img{
+        height: 0;
+    }
+    .footer{
+        margin: 0px;
+        padding: 0px;
+    }
+
+
 }
     
 
