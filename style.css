@@ -156,7 +156,6 @@ body {
     .card {
         flex: 1 1 45%;
     }
-        /* ★ FOOTER lado a lado no tablet */
     .footer {
         display: flex;
         flex-direction: row;
