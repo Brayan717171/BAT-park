@@ -313,4 +313,28 @@ body {
         width: 78.33px;
         padding-left: 10px;
     }
+    .planos .blocos1{
+        height: 250px;
+        width: 150px;
+    }
+    .planos .blocos2{
+        height: 250px;
+        width: 150px;
+    }
+    .planos .blocos3{
+        height: 220px;
+        width: 200px;
+    }
+    .planos h1{
+
+    }
+    .planos h2{
+        font-size: 10px;
+    }
+    .planos h3{
+        font-size: 10px;
+    }
+    .descricao1 p{
+        font-size: 10px;
+    }
 }
