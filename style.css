@@ -136,7 +136,9 @@ body {
     }
     .logo img {
         height: 80px;
-        margin-top: -25px;
+        margin-top: -30px;
+        padding-left: 10px;
+    
     }
     .cabecalho a {
         margin-left: 15px;
